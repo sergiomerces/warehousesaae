@@ -1,0 +1,1 @@
+alert('Ficamos felizes em ver que você está acompnhando o desenvolvimento de nosso catálogo eletrônico! ');
