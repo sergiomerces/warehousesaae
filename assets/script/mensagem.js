@@ -1,1 +1,2 @@
-alert('Ficamos felizes em ver que você está acompnhando o desenvolvimento de nosso catálogo eletrônico! ');
+
+alert('😃 Ficamos felizes em ver que você está acompanhando o desenvolvimento de nosso catálogo eletrônico!');
