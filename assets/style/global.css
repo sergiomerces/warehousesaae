@@ -4,6 +4,7 @@
 
 :root {
     --cor0: #0087ca;
+    --cor1: #00008b;
 }
 
 * {
@@ -54,8 +55,32 @@ nav.principal ul {
 
 nav.principal li {
     list-style:none;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 500;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+nav > ul > li > a:hover {
+    background-color: var(--cor1);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    transition: 150ms;
+}
+
+nav > ul > li > a:active {
+    background-color: var(--cor1);
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    transition: 150ms;
 }
 
 section {
