@@ -45,6 +45,19 @@ header div#text-branding {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.569);
 }
 
+nav.principal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 10px 0;
+}
+
+nav.principal li {
+    list-style:none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
 section {
     text-align: center;
 }
