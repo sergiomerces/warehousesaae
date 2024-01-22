@@ -5,6 +5,8 @@
 :root {
     --cor0: #0087ca;
     --cor1: #00008b;
+    --cor2: #ffa500;
+    --cor3: #ebe7e7;
 }
 
 * {
@@ -27,8 +29,10 @@ body {
 main {
     background-color: #fff;
     width: 1200px;
+    border: solid 1px black;
     border-radius: 23px;
-    margin: 20px 0;
+    box-shadow: 1px 1px 1px;
+    margin: 10px 0;
 }
 
 header {
@@ -49,7 +53,8 @@ header div#text-branding {
 nav.principal ul {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    align-items: center;
     margin: 10px 0;
 }
 
@@ -63,6 +68,7 @@ nav > ul > li > a,
 nav > ul > li > a:visited {
     text-decoration: none;
     color: var(--cor1);
+    text-shadow: 1px 0.8px 0.2px;
 }
 
 nav > ul > li > a:hover {
@@ -76,21 +82,29 @@ nav > ul > li > a:hover {
 
 nav > ul > li > a:active {
     background-color: var(--cor1);
-    color: orange;
+    color: var(--cor2);
     font-size: 1.5rem;
     font-weight: 700;
     padding: 3px 10px;
     transition: 150ms;
 }
 
-section {
-    text-align: center;
+section.materiais {
+    background-color: var(--cor3);
+    display: flex;
+    gap: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 50px 0;
 }
 
-section > img#img-capa {
+section.materiais > div.material {
     border: solid 1px black;
-    border-radius: 15px;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 1px 0.5px 0.2px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
