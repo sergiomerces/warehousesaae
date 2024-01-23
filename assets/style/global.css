@@ -90,7 +90,7 @@ nav > ul > li > a:active {
 }
 
 section.materiais {
-    background-color: var(--cor3);
+    background-color: rgba(141, 131, 131, 0.616);
     display: flex;
     gap: 50px 0;
     flex-wrap: wrap;
@@ -105,6 +105,11 @@ section.materiais > div.material {
     background-color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+div.material:hover {
+    transform: translateX(10px) scale(1.15);
+    transition: 500ms;
 }
 
 footer {
