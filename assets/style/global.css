@@ -47,7 +47,7 @@ header div#text-branding {
     color:var(--cor0);
     font-size: 2rem;
     font-weight: bolder;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.569);
+    text-shadow: 1px 1px 1px #00000091;
 }
 
 nav.principal ul {
@@ -97,6 +97,10 @@ section.materiais {
     justify-content: space-evenly;
     margin-top: 50px;
     padding: 50px 0;
+}
+
+section.materiais a {
+    text-decoration: none;
 }
 
 section.materiais > div.material {

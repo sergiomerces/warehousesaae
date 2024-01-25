@@ -34,5 +34,5 @@ const materiais = [
 ];
 
 materiais.forEach(material => {
-    console.log(material);
+    console.log(`${material[0].codigo}`);
 });

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+section#container {
+    background-color: rgb(214, 210, 210);
+    padding: 20px;
+}
+
+section.item {
+    background-color: #fff;
+    border: solid 1px gray;
+    margin: 20px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 1px;
+}
+
+div.linha {
+    width: 1100px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+div.codigo,
+div.descricao,
+div.compra {
+    margin-left: 50px;
+}
+
+div.codigo {
+    font-weight: 700;
+}
+
